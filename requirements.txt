@@ -1,0 +1,27 @@
+# requirements.txt for PDF-to-Audio Converter App
+
+# GUI framework
+customtkinter==5.2.2
+packaging==24.1  # Required by customtkinter for version handling
+darkdetect==0.8.0  # Required by customtkinter for theme detection
+
+# Image processing for gradient background
+Pillow==10.4.0
+
+# PDF text extraction
+PyPDF2==3.0.1
+
+# PDF to image conversion for OCR
+pdf2image==1.17.0
+
+# OCR for scanned PDFs
+pytesseract==0.3.13
+
+# Offline text-to-speech
+pyttsx3==2.90
+
+# Online text-to-speech
+gTTS neum==2.5.3
+
+# Translation support
+googletrans==3.1.0a0
